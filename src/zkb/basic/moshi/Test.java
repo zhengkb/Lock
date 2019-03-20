@@ -10,7 +10,6 @@ public class Test {
                 @Override
                 public void run() {
                     storage.produce(String.format("生产者 %d ", finali));
-
                 }
             }).start();
         }
